@@ -1,17 +1,47 @@
-# BREAST-CANCER-PREDICTION-USING-DECISION-TREE-METHOD :
+# 🩺 Breast Cancer Prediction Using Decision Tree
 
-Cancer prediction on Wisconsin Breast Cancer Dataset using supervised learning - Decision Tree. The model have achieved 91% of accuracy.
+## Overview
 
-This project implements Decision Tree Method  to classify breast tumors as malignant [0] or benign [1] using the Breast Cancer Wisconsin dataset.
-The model is trained on 80% of the data and tested on 20%. Performance evaluation using accuracy, confusion matrix, and classification report shows high prediction accuracy, demonstrating the effectiveness of Decision Tree Method for medical diagnosis tasks.
+This project predicts **breast cancer** using the **Decision Tree** algorithm, a supervised machine learning method. The model classifies tumors as **malignant (0)** or **benign (1)** using the **Wisconsin Breast Cancer Dataset**.
 
-**Get the Breast Cancer Wisconsin dataset using below line :**
+---
+
+## Dataset
+
+* Wisconsin Breast Cancer Dataset (scikit-learn)
+* 30 numerical features
+* Target labels: 0 (Malignant), 1 (Benign)
 
 ```python
 from sklearn.datasets import load_breast_cancer
 
-Data = load_breast_cancer()
+data = load_breast_cancer()
 ```
+
+---
+
+## Methodology
+
+* Algorithm: Decision Tree Classifier
+* Data split: 80% training, 20% testing
+* Basic preprocessing and feature handling
+
+---
+
+## Results
+
+* Achieved **91% accuracy** on test data
+* Model evaluated using accuracy score, confusion matrix, and classification report
+
+
+**Nagaraj M**
+GitHub: [https://github.com/M-Nagaraj02](https://github.com/M-Nagaraj02)
+
+---
+
+## Author
+
+
 
 **Model Confusion Matrix Heatmap :**
 
